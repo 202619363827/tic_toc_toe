@@ -1,0 +1,46 @@
+/* .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  /* .board-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  } */
+  /* .status{
+    color: brown;
+
+  }
+
+  game-board{
+    color:blue
+  } */
+  .square {
+    border: 1px solid;
+    font-size: 3em;
+    color:green
+  }
+  
+  .board-row {
+    display: flex;
+    justify-content: center;
+  }
+  .game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square {
+
+    background-color: lightblue;
+    
+  }
+    
+  status{
+    color:blue
+  }
